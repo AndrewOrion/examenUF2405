@@ -17,7 +17,7 @@
 	
 	<div>
 		<label for="codCentro">Código Centro: </label>
-		<input type="text" name="codCentro" id="codCentro" value="<%=centro.getCodCentro() %>" />
+		<input type="text" name="codCentro" id="codCentro" value="<%=centro.getCod_centro() %>" />
 	</div>
 	<div>
 		<label for="nombre">Título: </label>

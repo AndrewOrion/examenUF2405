@@ -1,4 +1,4 @@
-<%@page import="modelo.Centro"%>
+<%@ page import="modelo.Centro"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@page import="java.util.List" %>
@@ -24,11 +24,11 @@
 		for (Centro centro:lista) {
 			%>
 			<tr>
-				<td><%=centro.getCodCentro() %></td>
+				<td><%=centro.getCod_centro() %></td>
 				<td><%=centro.getNombre() %></td>
 				<td><%=centro.getDireccion() %></td>
-				<td><a href="centros?opcion=editar&codCentro=<%=centro.getCodCentro()%>">Editar</a></td>
-				<td><a href="centros?opcion=eliminar&codCentro=<%=centro.getCodCentro()%>">X</a></td>
+				<td><a href="centros?opcion=editar&codCentro=<%=centro.getCod_centro()%>">Editar</a></td>
+				<td><a href="centros?opcion=eliminar&codCentro=<%=centro.getCod_centro()%>">X</a></td>
 			</tr>
 			<%
 		}

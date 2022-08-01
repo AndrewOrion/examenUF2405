@@ -24,7 +24,7 @@
 		<label for="codCentro">Centro:</label>
 		<select name="codCentro" id="codCentro">
 			<% for (Centro c: listaCentros) { %>
-			<option value="<%=c.getCodCentro()%>"><%=c.getNombre() %></option>
+			<option value="<%=c.getCod_centro()%>"><%=c.getNombre() %></option>
 			<%} %>
 			
 		</select>

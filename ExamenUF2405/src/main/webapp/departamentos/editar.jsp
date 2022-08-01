@@ -27,11 +27,11 @@
 		<label for="codCentro">Centro:</label>
 		<select name="codCentro" id="codCentro">
 			<% for (Centro c: listaCentros) { 
-				if (c.getCodCentro()==dept.getCodCentro()){
-					out.println("<option value='"+c.getCodCentro()+"' selected>"
+				if (c.getCod_centro()==dept.getCodCentro()){
+					out.println("<option value='"+c.getCod_centro()+"' selected>"
 					            +c.getNombre()+ "</option>" );
 				} else {
-					out.println("<option value='"+c.getCodCentro()+"'>"
+					out.println("<option value='"+c.getCod_centro()+"'>"
 				            +c.getNombre()+ "</option>" );
 				}
 			}
